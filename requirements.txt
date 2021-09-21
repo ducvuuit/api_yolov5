@@ -1,21 +1,6 @@
-flask
-requests
-black
-
-matplotlib>=3.2.2
-numpy>=1.18.5
-opencv-python>=4.1.2
-Pillow
-PyYAML>=5.3.1
-scipy>=1.4.1
-torch>=1.7.0+cpu
-torchvision>=0.8.1+cpu
-tqdm>=4.41.0
-gunicorn
-
-tensorboard>=2.4.1
-
-seaborn>=0.11.0
-pandas
-
-thop  # FLOPs computation
+Flask==1.0.3
+https://download.pytorch.org/whl/cpu/torch-1.0.0-cp37-cp37m-linux_x86_64.whl
+torchvision==0.2.1
+numpy==1.16.4
+Pillow==8.1.1
+gunicorn==19.9.0
